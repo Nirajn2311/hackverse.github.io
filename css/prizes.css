@@ -33,7 +33,11 @@
 
 	.prize-card-size-p{
 		width: 350px;
-		height: 290px;
+		height: 350px;
+	}
+
+	.prize-card-size-p ul{
+		font-size:1.2em !important;
 	}
 	
 	.api-card-size {
@@ -331,6 +335,14 @@
 			font-size: 1em;
 		}
 	}
+
+	@media only screen and (max-width: 450px){
+
+		.prize-card-size-p ul{
+			font-size: 1em !important;
+		}
+	}
+
 	@media only screen and (min-width: 993px) and (max-width: 1200px) {
 		.api-card-size {
 			width: 230px;
